@@ -1,0 +1,112 @@
+===============================
+MyTravel changelog
+===============================
+
+Version 1.3.1 – 30 May 22
+
+	 [Update]
+		+  [Fixed] Settings can't save data			
+		+  [Fix] The issues ralated Multi-language
+		+  [Fix] Hotel detail missed the Badge tags
+		+  [Update] Include/Exclude section for Boat module
+		+  [Update] Report commission for Admin + vendor
+
+Version 1.3.0 – 21 April 22
+
+	 [ADDED]
+		+ Add 2FA with Google Authenticator
+		+ Add the PopUp module
+		+ Add the Vendor listing (homepage block)
+		+ Add commission detail in the Report		
+		+ Add discount information in the invoice
+		+ Add "Radius" option + search option for Auto completed location from Gmap
+		+ Add "Delete button" allows User can disable their own account
+		+ Allow searching/Filter by business name in Dashboard > Users
+		+ Enable enquiry form for Boat module
+		+ Update icon loading for calendar
+		+ Update the Stripe to new version
+		+ Update boat section for Location
+		+ Update Stripe payment to the new version
+		+ Update pagination in the Map Layout
+		
+
+	[FIXED]
+		+ Hotel/Space by night from 21-24, but 21+24 is disabled so you can't checkout/check-in
+		+ Checkout page > Booking Detail has an incorrect detailed price
+		+ Fixed the Twitter Login
+		+ Fixed missing the target attribute for <a> tag
+		+ Fixed "Room not available for booking" on the checkout page
+		+ Fixed uploading image in the Live chat
+		+ Fixed the media upload issue
+		+ Fixed the 500 error in the Tour Attribute 
+
+
+
+Version 1.2.0 – 14 December 21
+
+    [ADD] 
+        + Add new Boat module and relates section(search, listing, detail, checkout)
+        + Add Coupon code module
+        + Update profile link use username insteads of ID
+
+    [FIXED]
+        + Fixed User chat issue
+        + Mobile scroll in the Map layout
+        + Fixed gallery issue
+        + Hotel-room, validate the number of people before booking a room
+        + Services can do booking the last slots at once
+        + Modify the Tour include/exclude 
+        + Fixed review criteria in the review form
+        + Fixed Subcrible issues(add new / bulk action)
+        + Tour Availability(Full Book status of Tour is marked for the next day - Case on Open Hours)
+
+
+Version 1.1.1 - 30 Aug 21
+
+	[ADD] 
+		+ Add option allow using the image larger than 2500px
+		+ Add "Min day stay" option for Car  
+	    + Add "Min day before booking" option for Car
+	    + Add Homepage layout 2
+
+	[UPDATE]
+		+ Event can checkout 2 last tickets at once
+		+ Hide the Auto update tool
+
+	[FIXED]
+		+ Multilanguage issue in the hotel booking form and Tour booking
+		+ Menu is missed in Location detail on Mobile
+		+ 500 Error when disabled the Event module
+		+ 500 Error when accessing log
+		+ 404 Error when accessing Contact report
+		+ Hide some redundant options
+
+Version 1.1.0 - July,7 - 2021  
+
+	[ADD] 
+		- New layout Homepage for Hotel/Tour/Space/Event/Car service
+		- New Map-Layout for Hotel/Tour/Space/Event/Car service
+		- Add 4 layouts for Location List
+		- Add new style for search form(Tab button Pills + Tab button Boxed + Tab button Shadow)
+		- Add new  layout for 404 page
+
+	[UPDATE]
+		- Update layout for Vendor Dashboard
+		- Update new style for Header
+		- Update the Space: Tearm Feature Box block
+
+	[FIXED]
+		- Selecting issue (cant able to select the Booking date) in the  Event/Tour/Space detail page
+		-  Fixed creating "Flight issue" from Admin and Vendor dashboard
+		- Fixed issue pay via Wallet 
+		- Fixed Upload avatar image
+		- Fixed not found Booking Report issue	
+		- Fixed some option is missed in the Style/General/Service settings
+		(Logo issues, Main colour, Custom CSS, some fields in the general settings..)
+		- Missed default page/post list for menu
+		- "Set Paid" feature cant able to update
+
+
+
+Version 1.0.0 - Jun,21 - 2021 
+ 	[First Release]
