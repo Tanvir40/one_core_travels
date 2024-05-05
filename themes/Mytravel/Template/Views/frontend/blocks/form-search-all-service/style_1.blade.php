@@ -75,6 +75,7 @@
                 z-index: -1;
             }
         }
+        
 </style>    
 <div class="bravo-form-search-all hero-block hero-v1 bg-video bg-img-hero-bottom gradient-overlay-half-black-gradient text-center z-index-2">
 <video autoplay loop muted playsinline class="bg-video">
