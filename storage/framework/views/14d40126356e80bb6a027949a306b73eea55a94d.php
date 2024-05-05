@@ -1,11 +1,37 @@
-<div class="bravo-form-search-all hero-block hero-v1 bg-img-hero-bottom gradient-overlay-half-black-gradient text-center z-index-2" style="background-image: url('<?php echo e($bg_image_url); ?>') !important;">
-    <div class="container space-2 space-top-xl-4">
-        <div class="row justify-content-center pb-xl-8">
-            <div class="py-8 py-xl-10 pb-5">
-                <h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold"><?php echo e($title ?? ''); ?></h1>
-                <p class="font-size-20 font-weight-normal text-white"><?php echo e($sub_title ?? ''); ?></p>
-            </div>
+
+
+<style>
+
+    .text-left-on-video {
+        position: absolute;
+        top: 10%;
+        left: 0;
+        width: 50%; /* Adjust width as needed */
+        padding: 20px; /* Adjust padding as needed */
+        color: white; /* Text color */
+        z-index: 1; /* Ensure text is above the video */
+    }
+        @media(min-aspect-ratio:16/9) {
+            .bg-video{
+                width:100%;
+                height:auto;
+                z-index: -1;
+            }
+        }
+</style>    
+<div class="bravo-form-search-all hero-block hero-v1 bg-video bg-img-hero-bottom gradient-overlay-half-black-gradient text-center z-index-2">
+<video autoplay loop muted playsinline class="bg-video">
+        <source src="<?php echo e(asset('makkah.mp4')); ?>" type="video/mp4">
+        <!-- Add other video formats here if needed -->
+        Your browser does not support the video tag.
+    </video>
+    <div class="text-left-on-video">
+        <div class="container space-2 space-top-xl-4">
+            <h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold"><?php echo e($title ?? ''); ?></h1>
+            <p class="font-size-20 font-weight-normal text-white"><?php echo e($sub_title ?? ''); ?></p>
         </div>
+    </div>
+    <div class="container space-2 space-top-xl-4">
         <?php if(empty($hide_form_search)): ?>
             <div class="mb-lg-n1">
                 <ul class="nav tab-nav-rounded flex-nowrap pb-2 pb-md-4 tab-nav <?php if(!empty($single_form_search)): ?> d-none <?php endif; ?>" role="tablist">
@@ -57,4 +83,5 @@
         <?php endif; ?>
     </div>
 </div>
+
 <?php /**PATH C:\wamp64\www\one_core_travels\themes/Mytravel/Template/Views/frontend/blocks/form-search-all-service/style_1.blade.php ENDPATH**/ ?>
